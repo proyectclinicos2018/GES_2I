@@ -1,0 +1,49 @@
+D:\Desarrollos\Sistemas Clínicos\Escritorio\FUENTES\GES\GES002i\GES002i\bin\Debug\GES002i.exe.config
+D:\Desarrollos\Sistemas Clínicos\Escritorio\FUENTES\GES\GES002i\GES002i\obj\x86\Debug\GES002i.csprojResolveAssemblyReference.cache
+D:\Desarrollos\Sistemas Clínicos\Escritorio\FUENTES\GES\GES002i\GES002i\obj\x86\Debug\GES002i.frmCasoGES.resources
+D:\Desarrollos\Sistemas Clínicos\Escritorio\FUENTES\GES\GES002i\GES002i\obj\x86\Debug\GES002i.Properties.Resources.resources
+D:\Desarrollos\Sistemas Clínicos\Escritorio\FUENTES\GES\GES002i\GES002i\obj\x86\Debug\GES002i.csproj.GenerateResource.Cache
+D:\Desarrollos\Sistemas Clínicos\Escritorio\FUENTES\GES\GES002i\GES002i\bin\Debug\GES002i.exe
+D:\Desarrollos\Sistemas Clínicos\Escritorio\FUENTES\GES\GES002i\GES002i\bin\Debug\GES002i.pdb
+D:\Desarrollos\Sistemas Clínicos\Escritorio\FUENTES\GES\GES002i\GES002i\obj\x86\Debug\GES002i.exe
+D:\Desarrollos\Sistemas Clínicos\Escritorio\FUENTES\GES\GES002i\GES002i\obj\x86\Debug\GES002i.pdb
+D:\Desarrollos\Sistemas Clínicos\Escritorio\FUENTES\GES\GES002i\GES002i\obj\x86\Debug\GES002i.Resource1.resources
+D:\ER\GES\GES002i\GES002i\bin\Debug\GES002i.exe.config
+D:\ER\GES\GES002i\GES002i\obj\x86\Debug\GES002i.exe
+D:\ER\GES\GES002i\GES002i\obj\x86\Debug\GES002i.pdb
+C:\Users\gonzalo.figueroa\Desktop\GES\GES002i\GES002i\bin\Debug\GES002i.exe.config
+C:\Users\gonzalo.figueroa\Desktop\GES\GES002i\GES002i\obj\x86\Debug\GES002i.exe
+C:\Users\gonzalo.figueroa\Desktop\GES\GES002i\GES002i\obj\x86\Debug\GES002i.pdb
+C:\Users\gonzalo.figueroa\Desktop\GES\GES002i\GES002i\bin\Debug\GES002i.exe
+C:\Users\gonzalo.figueroa\Desktop\GES\GES002i\GES002i\bin\Debug\GES002i.pdb
+C:\Users\gonzalo.figueroa\Desktop\GES\GES002i\GES002i\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\gonzalo.figueroa\Desktop\GES\GES002i\GES002i\obj\x86\Debug\GES002i.frmCasoGES.resources
+C:\Users\gonzalo.figueroa\Desktop\GES\GES002i\GES002i\obj\x86\Debug\GES002i.Properties.Resources.resources
+C:\Users\gonzalo.figueroa\Desktop\GES\GES002i\GES002i\obj\x86\Debug\GES002i.Resource1.resources
+C:\Users\gonzalo.figueroa\Desktop\GES\GES002i\GES002i\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\gonzalo.figueroa\Desktop\GES\GES002i\GES002i\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\emanuel.islas\Desktop\Falp\Sistemas\Escritorios\Ges\Modificacion\GES\GES002i\GES002i\bin\Debug\GES002i.exe.config
+C:\Users\emanuel.islas\Desktop\Falp\Sistemas\Escritorios\Ges\Modificacion\GES\GES002i\GES002i\obj\x86\Debug\GES002i.exe
+C:\Users\emanuel.islas\Desktop\Falp\Sistemas\Escritorios\Ges\Modificacion\GES\GES002i\GES002i\obj\x86\Debug\GES002i.pdb
+C:\Users\emanuel.islas\Desktop\Falp\Sistemas\Escritorios\Ges\Modificacion\GES\GES002i\GES002i\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\emanuel.islas\Desktop\Falp\Sistemas\Escritorios\Ges\Modificacion\GES\GES002i\GES002i\obj\x86\Debug\GES002i.frmCasoGES.resources
+C:\Users\emanuel.islas\Desktop\Falp\Sistemas\Escritorios\Ges\Modificacion\GES\GES002i\GES002i\obj\x86\Debug\GES002i.Properties.Resources.resources
+C:\Users\emanuel.islas\Desktop\Falp\Sistemas\Escritorios\Ges\Modificacion\GES\GES002i\GES002i\obj\x86\Debug\GES002i.Resource1.resources
+C:\Users\emanuel.islas\Desktop\Falp\Sistemas\Escritorios\Ges\Modificacion\GES\GES002i\GES002i\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\emanuel.islas\Desktop\Falp\Sistemas\Escritorios\Ges\Modificacion\GES\GES002i\GES002i\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\emanuel.islas\Desktop\Falp\Sistemas\Escritorios\Ges\Modificacion\GES\GES002i\GES002i\bin\Debug\GES002i.exe
+C:\Users\emanuel.islas\Desktop\Falp\Sistemas\Escritorios\Ges\Modificacion\GES\GES002i\GES002i\bin\Debug\GES002i.pdb
+C:\Users\emanuel.islas\Desktop\Proyectos\Proyectos\Versiones\GES\GES002i\GES002i\bin\Debug\GES002i.exe.config
+C:\Users\emanuel.islas\Desktop\Proyectos\Proyectos\Versiones\GES\GES002i\GES002i\obj\x86\Debug\GES002i.exe
+C:\Users\emanuel.islas\Desktop\Proyectos\Proyectos\Versiones\GES\GES002i\GES002i\obj\x86\Debug\GES002i.pdb
+C:\Users\emanuel.islas\Desktop\Falp\Sistemas\Escritorios\Ges\Ges_2I\Modificacion\GES002i\GES002i\bin\Debug\GES002i.exe.config
+C:\Users\emanuel.islas\Desktop\Falp\Sistemas\Escritorios\Ges\Ges_2I\Modificacion\GES002i\GES002i\obj\x86\Debug\GES002i.exe
+C:\Users\emanuel.islas\Desktop\Falp\Sistemas\Escritorios\Ges\Ges_2I\Modificacion\GES002i\GES002i\obj\x86\Debug\GES002i.pdb
+C:\Users\emanuel.islas\Desktop\Falp\Sistemas\Escritorios\Ges\Ges_2I\Modificacion\GES002i\GES002i\bin\Debug\GES002i.exe
+C:\Users\emanuel.islas\Desktop\Falp\Sistemas\Escritorios\Ges\Ges_2I\Modificacion\GES002i\GES002i\bin\Debug\GES002i.pdb
+C:\Users\emanuel.islas\Desktop\Falp\Sistemas\Escritorios\Ges\Ges_2I\Modificacion\GES002i\GES002i\obj\x86\Debug\GES002i.frmCasoGES.resources
+C:\Users\emanuel.islas\Desktop\Falp\Sistemas\Escritorios\Ges\Ges_2I\Modificacion\GES002i\GES002i\obj\x86\Debug\GES002i.Properties.Resources.resources
+C:\Users\emanuel.islas\Desktop\Falp\Sistemas\Escritorios\Ges\Ges_2I\Modificacion\GES002i\GES002i\obj\x86\Debug\GES002i.Resource1.resources
+C:\Users\emanuel.islas\Desktop\Falp\Sistemas\Escritorios\Ges\Ges_2I\Modificacion\GES002i\GES002i\obj\x86\Debug\GES002i.Frm_Agregar_Observacion.resources
+C:\Users\emanuel.islas\Desktop\Falp\Sistemas\Escritorios\Ges\Ges_2I\Modificacion\GES002i\GES002i\obj\x86\Debug\GES002i.csprojResolveAssemblyReference.cache
+C:\Users\emanuel.islas\Desktop\Falp\Sistemas\Escritorios\Ges\Ges_2I\Modificacion\GES002i\GES002i\obj\x86\Debug\GES002i.csproj.GenerateResource.Cache

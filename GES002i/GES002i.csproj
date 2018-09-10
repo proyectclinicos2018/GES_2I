@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C239F21E-05F4-4B00-B9C6-740B7F1E2265}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GES002i</RootNamespace>
+    <AssemblyName>GES002i</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AyudaSpreadNET, Version=2.0.0.0, Culture=neutral, PublicKeyToken=6b922ea657e944a2" />
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Oracle.DataAccess, Version=2.112.1.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=x86" />
+    <Reference Include="Paciente, Version=2.2.1.2, Culture=neutral, PublicKeyToken=a2b86fbb7e83ed01" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmCasoGes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCasoGes.Designer.cs">
+      <DependentUpon>frmCasoGes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Agregar_Observacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Agregar_Observacion.Designer.cs">
+      <DependentUpon>Frm_Agregar_Observacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resource1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource1.resx</DependentUpon>
+    </Compile>
+    <Compile Include="\\falp.org\recursos\Orion\Departamentos\Informatica\Desarrollo Clinica\Clases Escritorio\Clases\ClsComunes\Personas.cs">
+      <Link>Personas.cs</Link>
+    </Compile>
+    <Compile Include="\\falp.org\recursos\Orion\Departamentos\Informatica\Desarrollo Clinica\Clases Escritorio\Clases\ConectarFalp.cs">
+      <Link>ConectarFalp.cs</Link>
+    </Compile>
+    <Compile Include="\\falp.org\recursos\Orion\Departamentos\Informatica\Desarrollo Clinica\Clases Escritorio\Clases\ValidaMenu.cs">
+      <Link>ValidaMenu.cs</Link>
+    </Compile>
+    <EmbeddedResource Include="frmCasoGes.resx">
+      <DependentUpon>frmCasoGes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Agregar_Observacion.resx">
+      <DependentUpon>Frm_Agregar_Observacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Resource1.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Recursos\1588889018.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Recursos\Action-exit-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Recursos\agregar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Recursos\Ambulance.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Recursos\Anatomy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Recursos\blood.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Recursos\bot_editar_mini_on.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Recursos\cerrar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Recursos\Chemicals.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Recursos\Clean-Master-Cleaner-Icon copia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Recursos\clear.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Recursos\First Aid Kit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Recursos\guardar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Recursos\HeaderLarge.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Recursos\Health Meter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Recursos\Hospital 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Recursos\Hospital Bed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Recursos\impresora.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Recursos\Injury.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Recursos\Jeringa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Recursos\Medical Bills.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Recursos\Medical Chart XRay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Recursos\Medicine Liquid Blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Recursos\Optometrist.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Recursos\Patient Man 1 Green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Recursos\Patient Woman 1 Blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Recursos\Pill Red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Recursos\Print.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Recursos\Radioactive.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Recursos\salir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Recursos\salir1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Recursos\salir2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Recursos\salir3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Recursos\Search25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Recursos\Surgeon 1 Green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Recursos\Syringe and Vial.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Recursos\Treatment Plan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Recursos\Treatment View.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Recursos\ui-bg_gloss-wave_55_5c9ccc_500x100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Recursos\XRay 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\limpiar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Search2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HeaderLarge.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HeaderGV.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HeaderLarge1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\archivo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Delete.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
