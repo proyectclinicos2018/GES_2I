@@ -254,9 +254,26 @@ namespace GES002i
 
         private void btnPaquete_Click(object sender, EventArgs e)
         {
-            txtPaquete.Text = string.Empty;
-            txtPaquete.Tag = string.Empty;
             Cargar_Paquete();
+            if (Validar_paquete())
+            {
+               
+                if (txtPaquete.Text != "")
+                {
+                    txtDiasVig.Focus();
+                }
+                else
+                {
+                    txtPaquete.Focus();
+                }
+            }
+
+            else
+            {
+                MessageBox.Show("Estimado Usuario, El Paquete no esta asociado con esa Institución, por Favor Comunicarse con el área Comercial, para su vinculación  ", "Informacion Sistema", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                txtPaquete.Text = "";
+                txtPaquete.Tag = "";
+            }
         }
 
         private void TraeDBPquete(ref AyudaSpreadNet.AyudaSprNet Ayuda)
@@ -331,8 +348,7 @@ namespace GES002i
               {
                   try
                   {
-                      if (Validar_paquete())
-                      {
+                     
                           if (Validar_patologia())
                           {
                               DataRow NewFila = Tbl_Caso.NewRow();
@@ -359,16 +375,8 @@ namespace GES002i
 
                               //    MessageBox.Show("Estimado Usuario, Fue Agregada la Información Correctamente ", "Informacion Sistema", MessageBoxButtons.OK, MessageBoxIcon.Information);
                           }
-                      }
 
-                      else
-                      {
-                             MessageBox.Show("Estimado Usuario, El Paquete no esta asociado con esa Institución, por Favor Comunicarse con el área Comercial, para su vinculación  ", "Informacion Sistema", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                             txtPaquete.Text = "";
-                             txtPaquete.Tag = "";
-                      }
-
-
+ 
                   }
                   catch (Exception ex)
                   {
@@ -969,14 +977,26 @@ namespace GES002i
                 if (e.KeyChar == (char)13)
                 {
                     Cargar_Paquete();
-                    if (txtPaquete.Text != "")
+                    if (Validar_paquete())
                     {
-                        txtDiasVig.Focus();
+                       
+                        if (txtPaquete.Text != "")
+                        {
+                            txtDiasVig.Focus();
+                        }
+                        else
+                        {
+                            txtPaquete.Focus();
+                        }
                     }
+
                     else
                     {
-                        txtPaquete.Focus();
+                        MessageBox.Show("Estimado Usuario, El Paquete no esta asociado con esa Institución, por Favor Comunicarse con el área Comercial, para su vinculación  ", "Informacion Sistema", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        txtPaquete.Text = "";
+                        txtPaquete.Tag = "";
                     }
+                   
                 }
             }
         }

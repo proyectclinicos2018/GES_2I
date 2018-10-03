@@ -47,3 +47,14 @@ C:\Users\emanuel.islas\Desktop\Falp\Sistemas\Escritorios\Ges\Ges_2I\Modificacion
 C:\Users\emanuel.islas\Desktop\Falp\Sistemas\Escritorios\Ges\Ges_2I\Modificacion\GES002i\GES002i\obj\x86\Debug\GES002i.Frm_Agregar_Observacion.resources
 C:\Users\emanuel.islas\Desktop\Falp\Sistemas\Escritorios\Ges\Ges_2I\Modificacion\GES002i\GES002i\obj\x86\Debug\GES002i.csprojResolveAssemblyReference.cache
 C:\Users\emanuel.islas\Desktop\Falp\Sistemas\Escritorios\Ges\Ges_2I\Modificacion\GES002i\GES002i\obj\x86\Debug\GES002i.csproj.GenerateResource.Cache
+C:\Users\emanuel.islas\Desktop\Proyectos_Terminados\Ges\Ges_2i\GES002i\bin\Debug\GES002i.exe.config
+C:\Users\emanuel.islas\Desktop\Proyectos_Terminados\Ges\Ges_2i\GES002i\obj\x86\Debug\GES002i.exe
+C:\Users\emanuel.islas\Desktop\Proyectos_Terminados\Ges\Ges_2i\GES002i\obj\x86\Debug\GES002i.pdb
+C:\Users\emanuel.islas\Desktop\Proyectos_Terminados\Ges\Ges_2i\GES002i\bin\Debug\GES002i.exe
+C:\Users\emanuel.islas\Desktop\Proyectos_Terminados\Ges\Ges_2i\GES002i\bin\Debug\GES002i.pdb
+C:\Users\emanuel.islas\Desktop\Proyectos_Terminados\Ges\Ges_2i\GES002i\obj\x86\Debug\GES002i.csprojResolveAssemblyReference.cache
+C:\Users\emanuel.islas\Desktop\Proyectos_Terminados\Ges\Ges_2i\GES002i\obj\x86\Debug\GES002i.frmCasoGES.resources
+C:\Users\emanuel.islas\Desktop\Proyectos_Terminados\Ges\Ges_2i\GES002i\obj\x86\Debug\GES002i.Frm_Agregar_Observacion.resources
+C:\Users\emanuel.islas\Desktop\Proyectos_Terminados\Ges\Ges_2i\GES002i\obj\x86\Debug\GES002i.Properties.Resources.resources
+C:\Users\emanuel.islas\Desktop\Proyectos_Terminados\Ges\Ges_2i\GES002i\obj\x86\Debug\GES002i.Resource1.resources
+C:\Users\emanuel.islas\Desktop\Proyectos_Terminados\Ges\Ges_2i\GES002i\obj\x86\Debug\GES002i.csproj.GenerateResource.Cache
